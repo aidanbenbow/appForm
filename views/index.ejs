@@ -24,15 +24,20 @@
         </div>
         <div class="playergood playerfield">
             <label for="good">Ce a fost bine? Что было хорошего?</label>
-            <textarea name="good"></textarea>
+            <div class="wordcount-good">
+            <textarea name="good" id="playergood" rows="3"></textarea>
+            <p id="word-good">0</p>
+        </div>
         </div>
         <div class="playerimprove playerfield">
             <label for="improve">Ce se poate mai bine? Что может быть лучше?</label>
-            <textarea name="improve"></textarea>
+            <textarea name="improve" id="playerimprove" rows="3" maxlength="200"></textarea>
+            <p id="char-improve">0 / 200</p>
         </div>
         <div class="playercomments playerfield">
             <label for="comments">Comentarii Комментарии</label>
-            <textarea name="comments"></textarea>
+            <textarea name="comments" id="playercomments" rows="3" maxlength="200"></textarea>
+            <p id="char-comments">0 / 200</p>
         </div>
         
         <div class="submitbutton playerfield">
@@ -42,5 +47,7 @@
     </form>
 </div>
 
+
+<script src="textarea.js"></script>
 </body>
 </html>

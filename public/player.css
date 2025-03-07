@@ -16,7 +16,7 @@ body{
 
 .playerfield{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -37,12 +37,26 @@ body{
     border-radius: 5px;
 }
 
-.playerfield textarea{
+#playergood{
     width: 100%;
     padding: 10px;
     font-size: 1.2em;
     border: 1px solid #ccc;
+    resize: none;
     border-radius: 5px;
+}
+
+.wordcount-good{
+    position: relative;
+    width: 300px;
+}
+
+#word-good{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 0.8em;
+    color: #007bff;
 }
 
 .playerfield button{
