@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.playercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.playerfield{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.playerfield label{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.playerfield input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.playerfield textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.playerfield button{
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

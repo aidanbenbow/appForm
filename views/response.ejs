@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="player.css">
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+
+    <div class="playercontainer"> 
+<% data.forEach(function(item) { %>
+
+    <div class="playertable">
+
+   <div class="playername column">
+    <p><%= item.name %></p>
+   </div>
+    <div class="playercontact column">
+    <p><%= item.contact %></p>
+    </div>
+    <div class="playergood column">
+    <p><%= item.good %></p>
+    </div>
+    <div class="playerimprove column">
+    <p><%= item.improve %></p>
+    </div>
+    <div class="playercomments column">
+    <p><%= item.comments %></p>
+    </div>
+</div>
+<% }); %>
+</div>
+
+</body>
+</html>
